@@ -6,7 +6,7 @@ scoreboard-teams:
   enable-collision: true
   invisible-nametags: false
   sorting-types:
-    - GROUPS:owner,admin,mod,helper,builder,vip,default
+    - GROUPS:owner,admin,mod,helper,builder,vip,yodha,default
     - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
@@ -29,7 +29,7 @@ scoreboard:
       display-condition: "%player-version-id%>=765;%bedrock%=false"
       title: "%animation:scoreboard-title%"
       lines:
-        - "&7&m----------------------------"
+        - "&7&m------------------"
         - "&f Player Info:"
         - " &8» &fName: &b%player%"
         - " &8» &fRank: &b%group%"
@@ -41,7 +41,7 @@ scoreboard:
         - " &d👥 &fOnline: &f%online%"
         - " "
         - "   &7&oplay.eternalsmp.net"
-        - "&7&m----------------------------"
+        - "&7&m------------------"
 
     scoreboard:
       display-condition: ""
@@ -63,7 +63,7 @@ scoreboard:
         - "&7&m----------------------------"
 
 layout:
-  enabled: false
+  enabled: true
   direction: COLUMNS
   default-skin: mineskin:37e93c8e12cd426cb28fce31969e0674
   enable-remaining-players-text: true
@@ -73,31 +73,30 @@ layout:
     default:
       slot-count: 80
       fixed-slots:
-        - "1|&3Website&f:"
-        - 2|&bmyserver.net
-        - "3|&8&m "
-        - "4|&3Name&f:"
-        - 5|&b%player%
-        - "7|&3Rank&f:"
-        - "8|Rank: %group%"
-        - "10|&3World&f:"
-        - 11|&b%world%
-        - "13|&3Time&f:"
-        - 14|&b%time%
-        - "21|&3Teamspeak&f:"
-        - 22|&bts.myserver.net
-        - "23|&8&m "
-        - "41|&3Store&f:"
-        - 42|&bshop.myserver.net
-        - "43|&8&m "
+        - "1|&8&l» &6&lETERNAL SMP &8&l«"
+        - "2|&8&m                       "
+        - "3|&e&lSERVER INFO"
+        - "5|&7Online: &a%online%"
+        - "6|&7TPS: &a%tps%"
+        - "8|&e&lYOUR STATS"
+        - "10|&7Name: &b%player%"
+        - "11|&7Rank: &b%group%"
+        - "12|&7Ping: &b%ping%&8ms"
+        - "21|&e&lONLINE PLAYERS"
+        - "22|&8&m                       "
+        - "41|&e&lSTORE"
+        - "42|&bshop.eternalsmp.net"
+        - "61|&e&lWEBSITE"
+        - "62|&bwww.eternalsmp.net"
       groups:
         staff:
           display-condition: permission:tab.staff
           slots:
-            - 24-40
+            - 23-40
         players:
           slots:
-            - 44-80
+            - 44-60
+            - 63-80
 ping-spoof:
   enabled: false
   value: 0
@@ -147,6 +146,7 @@ primary-group-finding-list:
   - Admin
   - Mod
   - Helper
+  - yodha
   - default
 permission-refresh-interval: 1000
 debug: false
