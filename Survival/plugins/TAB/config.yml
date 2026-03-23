@@ -67,7 +67,7 @@ scoreboard:
         - "&7&m----------------------------"
 
 layout:
-  enabled: true
+  enabled: false
   direction: COLUMNS
   default-skin: mineskin:37e93c8e12cd426cb28fce31969e0674
   enable-remaining-players-text: true
@@ -209,6 +209,14 @@ bossbar:
   enabled: false
 header-footer:
   enabled: true
+  header:
+    - "&e&lETERNAL SMP"
+    - "&7Welcome &b%player%&7!"
+    - ""
+  footer:
+    - ""
+    - "&7Online: &a%online%  &8|  &7TPS: &a%tps%"
+    - "&eplay.eternalsmp.net"
 mysql:
   enabled: false
 per-world-playerlist:
