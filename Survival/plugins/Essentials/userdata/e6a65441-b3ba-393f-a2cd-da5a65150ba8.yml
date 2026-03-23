@@ -1,0 +1,54 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1774251883478
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1774264314787
+  login: 1774264254908
+  kits:
+    chakravarti: 1774250282326
+    janta: 1774259301863
+    yodha: 1774259320604
+    sachiv: 1774259335208
+    vajir: 1774259345712
+    rajguru: 1774259357551
+money: '0'
+last-account-name: mastermen1
+logoutlocation:
+  world: b612beee-fe78-4ed0-bcf4-f47e2388c0ae
+  world-name: world
+  x: 241.2100012508243
+  y: 117.0
+  z: -185.11993885571073
+  yaw: 110.69989013671875
+  pitch: 19.949993133544922
+lastlocation:
+  world: b612beee-fe78-4ed0-bcf4-f47e2388c0ae
+  world-name: world
+  x: 999.1214097286386
+  y: 252.0
+  z: 1003.1830845175745
+  yaw: -63.0000114440918
+  pitch: -10.200014114379883
+homes:
+  dax:
+    world: b612beee-fe78-4ed0-bcf4-f47e2388c0ae
+    world-name: world
+    x: 231.4239857704762
+    y: 112.0
+    z: -15.595191493064553
+    yaw: -73.96761322021484
+    pitch: 60.89985275268555

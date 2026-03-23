@@ -1,0 +1,79 @@
+kits:
+  janta:
+    delay: 7200
+    items:
+      - iron_helmet 1
+      - iron_chestplate 1
+      - iron_leggings 1
+      - iron_boots 1
+      - iron_sword 1
+      - iron_pickaxe 1
+      - iron_axe 1
+      - iron_shovel 1
+      - cooked_beef 16
+  yodha:
+    delay: 86400
+    items:
+      - diamond_helmet 1
+      - diamond_chestplate 1
+      - diamond_leggings 1
+      - diamond_boots 1
+      - diamond_sword 1
+      - diamond_pickaxe 1
+      - diamond_axe 1
+      - diamond_shovel 1
+      - golden_apple 2
+      - cooked_beef 32
+  sachiv:
+    delay: 86400
+    items:
+      - diamond_helmet 1 protection:1
+      - diamond_chestplate 1 protection:1
+      - diamond_leggings 1 protection:1
+      - diamond_boots 1 protection:1
+      - diamond_sword 1 sharpness:1
+      - diamond_pickaxe 1 efficiency:1
+      - diamond_axe 1 efficiency:1
+      - diamond_shovel 1 efficiency:1
+      - golden_apple 4
+      - cooked_beef 32
+  vajir:
+    delay: 172800
+    items:
+      - diamond_helmet 1 protection:2
+      - diamond_chestplate 1 protection:2
+      - diamond_leggings 1 protection:2
+      - diamond_boots 1 protection:2
+      - diamond_sword 1 sharpness:2
+      - diamond_pickaxe 1 efficiency:2
+      - diamond_axe 1 efficiency:2
+      - diamond_shovel 1 efficiency:2
+      - golden_apple 8
+      - cooked_beef 64
+  rajguru:
+    delay: 172800
+    items:
+      - diamond_helmet 1 protection:3 unbreaking:1
+      - diamond_chestplate 1 protection:3 unbreaking:1
+      - diamond_leggings 1 protection:3 unbreaking:1
+      - diamond_boots 1 protection:3 unbreaking:1
+      - diamond_sword 1 sharpness:3 unbreaking:1
+      - diamond_pickaxe 1 efficiency:3 unbreaking:1
+      - diamond_axe 1 efficiency:3 unbreaking:1
+      - diamond_shovel 1 efficiency:3 unbreaking:1
+      - golden_apple 16
+      - cooked_beef 64
+  chakravarti:
+    delay: 259200
+    items:
+      - netherite_helmet 1 protection:4 unbreaking:3 mending:1
+      - netherite_chestplate 1 protection:4 unbreaking:3 mending:1
+      - netherite_leggings 1 protection:4 unbreaking:3 mending:1
+      - netherite_boots 1 protection:4 unbreaking:3 mending:1
+      - netherite_sword 1 sharpness:5 unbreaking:3 fireaspect:2
+      - netherite_pickaxe 1 efficiency:5 unbreaking:3 fortune:3
+      - netherite_axe 1 efficiency:5 unbreaking:3
+      - netherite_shovel 1 efficiency:5 unbreaking:3
+      - enchanted_golden_apple 4
+      - golden_apple 32
+      - cooked_beef 64

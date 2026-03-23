@@ -1,0 +1,300 @@
+[03-22 21:58:47]: [INFO] Created column 'regdate' and set the current timestamp, 1774196927225, to all 0 rows
+[03-22 21:58:47]: [INFO] SQLite Setup finished
+[03-22 21:58:47]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-22 21:58:48]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-22 21:58:48]: [INFO] AuthMeReReloaded is running on Paper
+[03-22 21:58:48]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-22 21:58:48]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-22 21:58:48]: [INFO] Checking for updates...
+[03-22 21:58:49]: [INFO] You are running the latest version.
+[03-22 21:59:00]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-22 22:02:17]: [INFO] SQLite Setup finished
+[03-22 22:02:17]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-22 22:02:17]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-22 22:02:17]: [INFO] AuthMeReReloaded is running on Paper
+[03-22 22:02:17]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-22 22:02:17]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-22 22:02:17]: [INFO] Checking for updates...
+[03-22 22:02:19]: [INFO] You are running the latest version.
+[03-22 22:05:57]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-22 22:06:13]: [INFO] SQLite Setup finished
+[03-22 22:06:14]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-22 22:06:14]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-22 22:06:14]: [INFO] AuthMeReReloaded is running on Paper
+[03-22 22:06:14]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-22 22:06:14]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-22 22:06:14]: [INFO] Checking for updates...
+[03-22 22:06:16]: [INFO] You are running the latest version.
+[03-22 22:21:14]: [INFO:FINE] mastermen1 registered 127.0.0.1
+[03-22 22:21:14]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 22:28:25]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 22:43:26]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-22 22:43:47]: [INFO] SQLite Setup finished
+[03-22 22:43:47]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-22 22:43:48]: [INFO] Hooked successfully into Essentials
+[03-22 22:43:48]: [INFO] Essentials spawn file not found: 'D:\xyz\games\Dax Server\plugins\Essentials\spawn.yml'
+[03-22 22:43:48]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-22 22:43:48]: [INFO] AuthMeReReloaded is running on Paper
+[03-22 22:43:48]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-22 22:43:48]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-22 22:43:48]: [INFO] Checking for updates...
+[03-22 22:43:49]: [INFO] You are running the latest version.
+[03-22 22:43:52]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 22:57:57]: [INFO] mastermen1 logged out
+[03-22 22:58:18]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:00:40]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-22 23:00:58]: [INFO] SQLite Setup finished
+[03-22 23:00:58]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-22 23:00:58]: [INFO] Hooked successfully into Essentials
+[03-22 23:00:58]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-22 23:00:58]: [INFO] AuthMeReReloaded is running on Paper
+[03-22 23:00:58]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-22 23:00:58]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-22 23:00:58]: [INFO] Checking for updates...
+[03-22 23:00:59]: [INFO] You are running the latest version.
+[03-22 23:01:02]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:02:16]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-22 23:02:33]: [INFO] SQLite Setup finished
+[03-22 23:02:34]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-22 23:02:34]: [INFO] Hooked successfully into Essentials
+[03-22 23:02:34]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-22 23:02:34]: [INFO] AuthMeReReloaded is running on Paper
+[03-22 23:02:34]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-22 23:02:34]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-22 23:02:34]: [INFO] Checking for updates...
+[03-22 23:02:35]: [INFO] You are running the latest version.
+[03-22 23:02:40]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:07:06]: [INFO] mastermen1 logged out
+[03-22 23:07:22]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:08:23]: [INFO] mastermen1 logged out
+[03-22 23:08:35]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:09:38]: [INFO] mastermen1 logged out
+[03-22 23:09:55]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:10:56]: [INFO] mastermen1 logged out
+[03-22 23:11:04]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:11:28]: [INFO] mastermen1 logged out
+[03-22 23:11:42]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:11:45]: [INFO] mastermen1 logged out
+[03-22 23:11:48]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:14:13]: [INFO] mastermen1 logged out
+[03-22 23:14:19]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:14:39]: [INFO] mastermen1 logged out
+[03-22 23:14:50]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-22 23:15:05]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-23 00:01:42]: [INFO] SQLite Setup finished
+[03-23 00:01:42]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-23 00:01:42]: [INFO] Hooked successfully into Essentials
+[03-23 00:01:42]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-23 00:01:42]: [INFO] AuthMeReReloaded is running on Paper
+[03-23 00:01:42]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-23 00:01:42]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-23 00:01:42]: [INFO] Checking for updates...
+[03-23 00:01:43]: [INFO] You are running the latest version.
+[03-23 00:02:15]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 00:13:15]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-23 00:14:00]: [INFO] SQLite Setup finished
+[03-23 00:14:01]: [WARN] Error while hooking into Vault [PermissionHandlerException]: Could not load permissions provider service
+[03-23 00:14:01]: fr.xephi.authme.permission.handlers.PermissionHandlerException: Could not load permissions provider service
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.permission.handlers.VaultHandler.getVaultPermission(VaultHandler.java:45)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.permission.handlers.VaultHandler.<init>(VaultHandler.java:29)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.permission.PermissionsManager.createPermissionHandler(PermissionsManager.java:142)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.permission.PermissionsManager.setup(PermissionsManager.java:93)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.libs.ch.jalu.injector.utils.ReflectionUtils.invokeMethod(ReflectionUtils.java:73)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.libs.ch.jalu.injector.handlers.postconstruct.PostConstructMethodInvoker.postProcess(PostConstructMethodInvoker.java:27)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.runPostConstructHandlers(InjectorImpl.java:271)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:164)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:186)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:158)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:186)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolveContext(InjectorImpl.java:158)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.resolve(InjectorImpl.java:133)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.libs.ch.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:72)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:299)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.AuthMe.initialize(AuthMe.java:273)
+	at AuthMe-5.7.0-FORK-Universal.jar//fr.xephi.authme.AuthMe.onEnable(AuthMe.java:182)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279)
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207)
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:639)
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:596)
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:636)
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:365)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1253)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+[03-23 00:14:01]: [INFO] No supported permissions system found! Permissions are disabled!
+[03-23 00:14:01]: [INFO] Hooked successfully into Essentials
+[03-23 00:14:01]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-23 00:14:01]: [INFO] AuthMeReReloaded is running on Paper
+[03-23 00:14:01]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-23 00:14:01]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-23 00:14:01]: [INFO] Checking for updates...
+[03-23 00:14:02]: [INFO] You are running the latest version.
+[03-23 00:16:47]: [INFO:FINE] 9Mohitsoni1 registered 10.93.27.6
+[03-23 00:16:47]: [INFO:FINE] 9Mohitsoni1 logged in 10.93.27.6
+[03-23 00:16:52]: [INFO:FINE] mastermen1 logged in 10.93.27.222
+[03-23 00:16:56]: [INFO:FINE] 9Mohitsoni1 logged in 10.93.27.6
+[03-23 00:17:37]: [INFO:FINE] 9Mohitsoni1 logged in 10.93.27.6
+[03-23 00:17:46]: [INFO:FINE] 9Mohitsoni1 logged in 10.93.27.6
+[03-23 00:30:43]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-23 00:31:21]: [INFO] SQLite Setup finished
+[03-23 00:31:21]: [INFO] Hooked into LuckPerms!
+[03-23 00:31:21]: [INFO] Hooked successfully into Essentials
+[03-23 00:31:21]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-23 00:31:21]: [INFO] AuthMeReReloaded is running on Paper
+[03-23 00:31:21]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-23 00:31:21]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-23 00:31:21]: [INFO] Checking for updates...
+[03-23 00:31:22]: [INFO] You are running the latest version.
+[03-23 00:33:45]: [INFO:FINE] mastermen1 logged in 10.93.27.222
+[03-23 01:03:00]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-23 12:45:49]: [INFO] SQLite Setup finished
+[03-23 12:45:49]: [INFO] Hooked into LuckPerms!
+[03-23 12:45:49]: [INFO] Hooked successfully into Essentials
+[03-23 12:45:49]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-23 12:45:49]: [INFO] AuthMeReReloaded is running on Paper
+[03-23 12:45:49]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-23 12:45:49]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-23 12:45:49]: [INFO] Checking for updates...
+[03-23 12:45:50]: [INFO] You are running the latest version.
+[03-23 12:46:16]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 12:50:13]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 12:50:23]: [INFO] mastermen1 logged out
+[03-23 12:51:07]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 13:06:34]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 13:38:40]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-23 14:35:50]: [INFO] SQLite Setup finished
+[03-23 14:35:50]: [INFO] Hooked into LuckPerms!
+[03-23 14:35:50]: [INFO] Hooked successfully into Essentials
+[03-23 14:35:50]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-23 14:35:50]: [INFO] AuthMeReReloaded is running on Paper
+[03-23 14:35:50]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-23 14:35:50]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-23 14:35:50]: [INFO] Checking for updates...
+[03-23 14:35:51]: [INFO] You are running the latest version.
+[03-23 14:36:24]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-23 14:39:13]: [INFO] SQLite Setup finished
+[03-23 14:39:13]: [INFO] Hooked into LuckPerms!
+[03-23 14:39:13]: [INFO] Hooked successfully into Essentials
+[03-23 14:39:13]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-23 14:39:13]: [INFO] AuthMeReReloaded is running on Paper
+[03-23 14:39:13]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-23 14:39:13]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-23 14:39:13]: [INFO] Checking for updates...
+[03-23 14:39:15]: [INFO] You are running the latest version.
+[03-23 14:44:16]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-23 14:45:18]: [INFO] SQLite Setup finished
+[03-23 14:45:18]: [INFO] Hooked into LuckPerms!
+[03-23 14:45:18]: [INFO] Hooked successfully into Essentials
+[03-23 14:45:18]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-23 14:45:18]: [INFO] AuthMeReReloaded is running on Paper
+[03-23 14:45:18]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-23 14:45:18]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-23 14:45:18]: [INFO] Checking for updates...
+[03-23 14:45:19]: [INFO] You are running the latest version.
+[03-23 14:45:27]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 15:13:07]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 15:16:10]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 15:16:17]: [INFO] mastermen1 logged out
+[03-23 15:16:55]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 15:25:52]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 15:31:21]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!
+[03-23 16:39:01]: [INFO] SQLite Setup finished
+[03-23 16:39:01]: [INFO] Hooked into LuckPerms!
+[03-23 16:39:01]: [INFO] Hooked successfully into Essentials
+[03-23 16:39:02]: [INFO] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[03-23 16:39:02]: [INFO] AuthMeReReloaded is running on Paper
+[03-23 16:39:02]: [INFO] AuthMeReReloaded is enabled successfully!
+[03-23 16:39:02]: [INFO] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[03-23 16:39:02]: [INFO] Checking for updates...
+[03-23 16:39:04]: [INFO] You are running the latest version.
+[03-23 16:40:15]: [INFO:FINE] mastermen1 logged in 127.0.0.1
+[03-23 16:42:11]: [INFO] AuthMe 5.7.0-FORK-b53 is unloaded successfully!

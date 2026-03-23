@@ -1,0 +1,66 @@
+# Citizens NPC Storage
+last-created-npc-id: 4
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid: a865229e-503a-4c2d-918f-35857d071d52
+      cached-skin-uuid-name: survival
+    traits:
+      owner:
+        uuid: e6a65441-b3ba-393f-a2cd-da5a65150ba8
+      scoreboardtrait:
+        tags:
+        - CITIZENS_NPC
+      commandtrait:
+        commands:
+        - command: server survival
+          hand: RIGHT
+          player: true
+      skintrait:
+        signature: YFCrCpQrVmL8T5x5JxzivSnh4m/RQj3HbE/84Sl9tyJN91TdzuCf1crCwjKi6zMezHFfOXRxZSzKkkZr0qjXb+1x3edzdkgc+hzL4/0SNSU6DXQXDBkL3j5vWmhdVFNSn35b8Fg3nhXS6fdJFDDbsn1FdC8xpshK93lYto1aDzfE5ePbgV0OCLqVi/MNQTF4OvB+toowgjHYHZKimPXoN+xSPSN3bIpVvIFs213SBD1q+BgytVpNY7WsQhp03q2ls+UJlE4wldSZ8KqHiRhO1qnK2j2EHDGclt4cvBHm5RM8UUQvoaYto1kl795CErxIcil6JMVf1ZUjMgEVeW7WATW/IGqNqX/OHMGdCVDtieB6A9Y8m8ffFHuqwwMtAfLloxCFMpierVKdqRgIPj1egPfpQEiwNCcijwGs8pU/2DmabmXcZML6elivbfkktGl/0Qmad35Z0UgLhMQPuYHmhcVh7xSTA2HZ9q9l4OBZnudzbr4bLN3+CSKSFmpU5KlSAOInTObg1P1Xo0N4ys4eCaN8w9zKDeLtzbnoLgeUR9zy2EDbkmhgE+8b/8uTtdqBUbLLPbZZJMllpWERZRlKCpkdB9Ak9UzFj1Q/1UPkGBN+0E+EWMGmCsgNfBPqpkMvuWrwQlWe6lia7c9yaobzkWqBg9bqG6EJhoBvaf56pdI=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc3NDIwNTM2MjA5NSwKICAicHJvZmlsZUlkIiA6ICJhODY1MjI5ZTUwM2E0YzJkOTE4ZjM1ODU3ZDA3MWQ1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdXJ2aXZhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYjQwNmJjMWNiYzVmODVjMzQzMjliZjBhMjM2MjUyMzVjNTI5ZWNiMGRmYzVlYWE5NTM5ZDQ0M2UwMGNjMDciCiAgICB9CiAgfQp9
+      location:
+        worldid: b612beee-fe78-4ed0-bcf4-f47e2388c0ae
+        x: 1000.4672
+        y: 253.0
+        z: 1004.054
+        bodyYaw: -176.99934
+        pitch: 16.5
+        yaw: -176.9993
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,spawned,commandtrait,skintrait,location,type,inventory
+    name: survival
+    navigator:
+      usedefaultstuckaction: false
+      speedmodifier: 1.0
+      avoidwater: false
+    uuid: e4eeadf3-ecb5-4a68-a67d-a2b73c3f088a
+  '4':
+    traits:
+      owner:
+        uuid: e6a65441-b3ba-393f-a2cd-da5a65150ba8
+      scoreboardtrait:
+        tags:
+        - CITIZENS_NPC
+      commandtrait:
+        commands:
+        - op: true
+          command: tellraw @p {"text":"⚠ UNDER DEVELOPMENT! Soon available 🚀","color":"red","bold":true}
+          hand: RIGHT
+          player: true
+      location:
+        worldid: b612beee-fe78-4ed0-bcf4-f47e2388c0ae
+        x: 997.0369
+        y: 253.0
+        z: 1000.4561
+        bodyYaw: -90.27658
+        pitch: 39.5961
+        yaw: -90.2766
+      type: PLAYER
+    traitnames: owner,scoreboardtrait,spawned,commandtrait,skintrait,location,type,inventory
+    name: OPSurvival
+    navigator:
+      usedefaultstuckaction: false
+      speedmodifier: 1.0
+      avoidwater: false
+    uuid: 7fb6b865-dfe1-46d3-92f3-4c785d007689

@@ -1,0 +1,93 @@
+# File: plugins/DeluxeMenus/gui_menus/kits.yml
+menu_title: '&#FF5555&lE&#FF5D45&lt&#FF6636&le&#FF6E26&lr&#FF7717&ln&#FF7F08&la&#FF8800&ll &f&lKits'
+open_command: 'kits'
+size: 27
+items:
+  'janta':
+    material: IRON_CHESTPLATE
+    slot: 11
+    display_name: '&7&lJanta Kit'
+    lore:
+      - '&7The basic survival gear.'
+      - '&8&m------------------'
+      - '&fCooldown: &e2 Hours'
+      - ''
+      - '&aLeft-Click to receive!'
+    left_click_commands:
+      - '[player] kit janta'
+      - '[close]'
+
+  'yodha':
+    material: DIAMOND_CHESTPLATE
+    slot: 12
+    display_name: '&a&lYodha Kit'
+    lore:
+      - '&aPremium Donator Gear.'
+      - '&8&m------------------'
+      - '&fCooldown: &e24 Hours'
+      - ''
+      - '&aLeft-Click to receive!'
+    left_click_commands:
+      - '[player] kit yodha'
+      - '[close]'
+
+  'sachiv':
+    material: DIAMOND_CHESTPLATE
+    slot: 13
+    display_name: '&b&lSachiv Kit'
+    lore:
+      - '&bAdvanced Donator Gear.'
+      - '&8&m------------------'
+      - '&fCooldown: &e24 Hours'
+      - '&fEnchants: &7Prot 1'
+      - ''
+      - '&aLeft-Click to receive!'
+    left_click_commands:
+      - '[player] kit sachiv'
+      - '[close]'
+
+  'vajir':
+    material: DIAMOND_CHESTPLATE
+    slot: 14
+    display_name: '&d&lVajir Kit'
+    lore:
+      - '&dElite Donator Gear.'
+      - '&8&m------------------'
+      - '&fCooldown: &e48 Hours'
+      - '&fEnchants: &7Prot 2'
+      - ''
+      - '&aLeft-Click to receive!'
+    left_click_commands:
+      - '[player] kit vajir'
+      - '[close]'
+
+  'rajguru':
+    material: DIAMOND_CHESTPLATE
+    slot: 15
+    display_name: '&e&lRaj Guru Kit'
+    lore:
+      - '&eGodly Donator Gear.'
+      - '&8&m------------------'
+      - '&fCooldown: &e48 Hours'
+      - '&fEnchants: &7Prot 3'
+      - ''
+      - '&aLeft-Click to receive!'
+    left_click_commands:
+      - '[player] kit rajguru'
+      - '[close]'
+
+  'chakravarti':
+    material: NETHERITE_CHESTPLATE
+    slot: 22
+    display_name: '&6&lChakravarti Kit'
+    lore:
+      - '&6&lUltimate Donator Gear.'
+      - '&8&m------------------'
+      - '&fCooldown: &e72 Hours'
+      - '&fEnchants: &7Maxed Prot 4+ Netherite'
+      - ''
+      - '&aLeft-Click to receive!'
+    left_click_commands:
+      - '[player] kit chakravarti'
+      - '[close]'
+
