@@ -1,43 +1,56 @@
 {
   "stats": {
-    "minecraft:used": {
-      "minecraft:stone_shovel": 6,
-      "minecraft:golden_apple": 3,
-      "minecraft:enchanted_golden_apple": 2
+    "minecraft:custom": {
+      "minecraft:damage_resisted": 9,
+      "minecraft:time_since_rest": 64109,
+      "minecraft:walk_one_cm": 17106,
+      "minecraft:leave_game": 16,
+      "minecraft:walk_under_water_one_cm": 3451,
+      "minecraft:damage_taken": 730,
+      "minecraft:damage_dealt": 0,
+      "minecraft:play_time": 97203,
+      "minecraft:damage_absorbed": 115,
+      "minecraft:jump": 424,
+      "minecraft:time_since_death": 64071,
+      "minecraft:damage_dealt_absorbed": 10,
+      "minecraft:sprint_one_cm": 23843,
+      "minecraft:fall_one_cm": 13175,
+      "minecraft:swim_one_cm": 21170,
+      "minecraft:total_world_time": 97203,
+      "minecraft:fly_one_cm": 55207,
+      "minecraft:walk_on_water_one_cm": 4443,
+      "minecraft:crouch_one_cm": 1371,
+      "minecraft:sneak_time": 572,
+      "minecraft:deaths": 1,
+      "minecraft:player_kills": 1
     },
     "minecraft:mined": {
       "minecraft:dirt": 1,
       "minecraft:leaf_litter": 2,
       "minecraft:grass_block": 4
     },
+    "minecraft:killed_by": {
+      "minecraft:player": 1
+    },
+    "minecraft:used": {
+      "minecraft:stone_shovel": 6,
+      "minecraft:diamond_block": 5,
+      "minecraft:golden_apple": 3,
+      "minecraft:trident": 1,
+      "minecraft:enchanted_golden_apple": 2
+    },
     "minecraft:picked_up": {
       "minecraft:enchanted_golden_apple": 2,
-      "minecraft:leaf_litter": 5,
-      "minecraft:dirt": 5,
-      "minecraft:netherite_spear": 1,
-      "minecraft:trident": 1,
-      "minecraft:iron_helmet": 1,
-      "minecraft:golden_apple": 12
-    },
-    "minecraft:custom": {
-      "minecraft:damage_resisted": 9,
-      "minecraft:time_since_rest": 26550,
-      "minecraft:walk_one_cm": 6818,
-      "minecraft:leave_game": 8,
-      "minecraft:walk_under_water_one_cm": 2196,
-      "minecraft:damage_taken": 284,
-      "minecraft:play_time": 26550,
-      "minecraft:damage_absorbed": 115,
-      "minecraft:jump": 197,
-      "minecraft:time_since_death": 26550,
-      "minecraft:sprint_one_cm": 10289,
-      "minecraft:fall_one_cm": 6125,
-      "minecraft:swim_one_cm": 19314,
-      "minecraft:total_world_time": 26550,
-      "minecraft:fly_one_cm": 23826,
-      "minecraft:walk_on_water_one_cm": 4415,
-      "minecraft:crouch_one_cm": 840,
-      "minecraft:sneak_time": 348
+      "minecraft:leaf_litter": 10,
+      "minecraft:dirt": 10,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:netherite_spear": 2,
+      "minecraft:stone_sword": 1,
+      "minecraft:trident": 2,
+      "minecraft:stone_axe": 1,
+      "minecraft:stone_shovel": 1,
+      "minecraft:iron_helmet": 2,
+      "minecraft:golden_apple": 22
     }
   },
   "DataVersion": 4671
