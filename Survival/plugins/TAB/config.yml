@@ -33,6 +33,8 @@ scoreboard:
         - "&f Player Info:"
         - " &8» &fName: &b%player%"
         - " &8» &fRank: &b%group%"
+        - " &8» &fKills: &c%statistic_player_kills%"
+        - " &8» &fDeaths: &c%statistic_deaths%"
         - ""
         - " &6⛃ &fMoney: &a%vault_eco_balance_formatted%"
         - " "
@@ -51,6 +53,8 @@ scoreboard:
         - "&f Player Info:"
         - " &8» &fName: &b%player%"
         - " &8» &fRank: &b%group%"
+        - " &8» &fKills: &c%statistic_player_kills%"
+        - " &8» &fDeaths: &c%statistic_deaths%"
         - " "
         - " &6➲ &fMoney: &a%vault_eco_balance_formatted%"
         - " &e✦ &fCoins: &e%playerpoints_points_formatted%"
@@ -67,36 +71,63 @@ layout:
   direction: COLUMNS
   default-skin: mineskin:37e93c8e12cd426cb28fce31969e0674
   enable-remaining-players-text: true
-  remaining-players-text: "... and %s more"
+  remaining-players-text: "&8... +%s more"
   empty-slot-ping-value: 1000
   layouts:
     default:
       slot-count: 80
       fixed-slots:
-        - "1|&8&l» &6&lETERNAL SMP &8&l«"
-        - "2|&8&m                       "
-        - "3|&e&lSERVER INFO"
-        - "5|&7Online: &a%online%"
-        - "6|&7TPS: &a%tps%"
-        - "8|&e&lYOUR STATS"
-        - "10|&7Name: &b%player%"
-        - "11|&7Rank: &b%group%"
-        - "12|&7Ping: &b%ping%&8ms"
-        - "21|&e&lONLINE PLAYERS"
-        - "22|&8&m                       "
-        - "41|&e&lSTORE"
-        - "42|&bshop.eternalsmp.net"
-        - "61|&e&lWEBSITE"
-        - "62|&bwww.eternalsmp.net"
+        # ── Column 1: Staff ──
+        - "1|&6&lSTAFF"
+        - "2|&8&m                    "
+        # ── Column 2: Special Ranks ──
+        - "21|&a&lVIP / SPECIAL"
+        - "22|&8&m                    "
+        # ── Column 3: Members ──
+        - "41|&e&lMEMBERS"
+        - "42|&8&m                    "
+        # ── Column 4: Server Info ──
+        - "61|&6&lETERNAL SMP"
+        - "62|&8&m                    "
+        - "63|&7Online: &f%online%"
+        - "64|&7TPS: &a%tps%"
+        - "65|&7Your Ping: &f%ping%&7ms"
+        - "66|&7Rank: &b%group%"
+        - "67| "
+        - "68|&eplay.eternalsmp.net"
       groups:
-        staff:
-          display-condition: permission:tab.staff
+        owner:
+          display-condition: "%group%=Owner"
+          slots:
+            - 3-10
+        admin:
+          display-condition: "%group%=Admin"
+          slots:
+            - 3-10
+        mod:
+          display-condition: "%group%=Mod"
+          slots:
+            - 11-20
+        helper:
+          display-condition: "%group%=Helper"
+          slots:
+            - 11-20
+        builder:
+          display-condition: "%group%=builder"
+          slots:
+            - 23-30
+        vip:
+          display-condition: "%group%=vip"
           slots:
             - 23-40
-        players:
+        yodha:
+          display-condition: "%group%=yodha"
           slots:
-            - 44-60
-            - 63-80
+            - 31-40
+        default:
+          slots:
+            - 43-60
+            - 69-80
 ping-spoof:
   enabled: false
   value: 0

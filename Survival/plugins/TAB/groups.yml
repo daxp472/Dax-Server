@@ -1,20 +1,48 @@
-#Owner:
-#  tabprefix: "&0&l[&a&lOwner&0&l] &a"
-#  tagprefix: "&2&lOwner &a"
-Player:
-  tabprefix: "&0&l[&7&lPlayer&0&l] &3"
-  tagprefix: "&2&lPlayer &3"
+# Minimal & Clean Rank Configuration for TAB
+owner:
+  tabprefix: "&4&lOWNER &8| &c"
+  tagprefix: "&4&lOWNER &8| &c"
+  customtabname: "&c%player%"
 
- # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+admin:
+  tabprefix: "&c&lADMIN &8| &c"
+  tagprefix: "&c&lADMIN &8| &c"
+  customtabname: "&c%player%"
+
+mod:
+  tabprefix: "&5&lMOD &8| &d"
+  tagprefix: "&5&lMOD &8| &d"
+  customtabname: "&d%player%"
+
+helper:
+  tabprefix: "&9&lHELPER &8| &b"
+  tagprefix: "&9&lHELPER &8| &b"
+  customtabname: "&b%player%"
+
+builder:
+  tabprefix: "&2&lBUILDER &8| &a"
+  tagprefix: "&2&lBUILDER &8| &a"
+  customtabname: "&a%player%"
+
+vip:
+  tabprefix: "&e&lVIP &8| &e"
+  tagprefix: "&e&lVIP &8| &e"
+  customtabname: "&e%player%"
+
+yodha:
+  tabprefix: "&6&lYODHA &8| &6"
+  tagprefix: "&6&lYODHA &8| &6"
+  customtabname: "&6%player%"
+
+default:
+  tabprefix: "&7"
+  tagprefix: "&7"
+  customtabname: "&7%player%"
+
+# Default fallback
 _DEFAULT_:
   tabprefix: "%luckperms-prefix%"
   tagprefix: "%luckperms-prefix%"
   customtabname: "%player%"
   tabsuffix: "%luckperms-suffix%"
   tagsuffix: "%luckperms-suffix%"
-
-per-world:
-  world1:
-    Owner:
-      tabprefix: "&0&l[&a&lOwner&0&l] &a"
-      tagprefix: "&2&lOwner &a"
