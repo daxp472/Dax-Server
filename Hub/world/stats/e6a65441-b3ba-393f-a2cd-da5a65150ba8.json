@@ -1,8 +1,5 @@
 {
   "stats": {
-    "minecraft:crafted": {
-      "minecraft:birch_planks": 4
-    },
     "minecraft:picked_up": {
       "minecraft:dirt": 5,
       "minecraft:beacon": 1,
@@ -16,39 +13,45 @@
       "minecraft:gunpowder": 1,
       "minecraft:lilac": 4
     },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 190412,
-      "minecraft:walk_one_cm": 106589,
-      "minecraft:leave_game": 38,
-      "minecraft:walk_under_water_one_cm": 1489,
-      "minecraft:mob_kills": 8,
-      "minecraft:damage_taken": 245,
-      "minecraft:play_time": 218866,
-      "minecraft:damage_dealt": 1280,
-      "minecraft:jump": 760,
-      "minecraft:interact_with_beacon": 3,
-      "minecraft:time_since_death": 190381,
-      "minecraft:drop": 7,
-      "minecraft:sprint_one_cm": 23283,
-      "minecraft:open_chest": 2,
-      "minecraft:fall_one_cm": 7700,
-      "minecraft:total_world_time": 218866,
-      "minecraft:fly_one_cm": 299128,
-      "minecraft:walk_on_water_one_cm": 1483,
-      "minecraft:crouch_one_cm": 5777,
-      "minecraft:sneak_time": 3107,
-      "minecraft:deaths": 2
-    },
-    "minecraft:killed": {
-      "minecraft:creeper": 1,
-      "minecraft:pig": 4,
-      "minecraft:cow": 1
-    },
     "minecraft:mined": {
       "minecraft:dirt": 1,
       "minecraft:birch_log": 1,
       "minecraft:grass_block": 5,
       "minecraft:lilac": 2
+    },
+    "minecraft:dropped": {
+      "minecraft:flint_and_steel": 1,
+      "minecraft:white_bed": 1,
+      "minecraft:wooden_axe": 1,
+      "minecraft:gunpowder": 1,
+      "minecraft:lilac": 2,
+      "minecraft:tnt": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 190984,
+      "minecraft:walk_one_cm": 107414,
+      "minecraft:leave_game": 41,
+      "minecraft:walk_under_water_one_cm": 1489,
+      "minecraft:mob_kills": 8,
+      "minecraft:damage_taken": 245,
+      "minecraft:play_time": 219438,
+      "minecraft:damage_dealt": 1280,
+      "minecraft:jump": 767,
+      "minecraft:interact_with_beacon": 3,
+      "minecraft:time_since_death": 190953,
+      "minecraft:drop": 7,
+      "minecraft:sprint_one_cm": 23283,
+      "minecraft:open_chest": 2,
+      "minecraft:fall_one_cm": 7700,
+      "minecraft:total_world_time": 219438,
+      "minecraft:fly_one_cm": 299128,
+      "minecraft:walk_on_water_one_cm": 1483,
+      "minecraft:crouch_one_cm": 5777,
+      "minecraft:sneak_time": 3111,
+      "minecraft:deaths": 2
+    },
+    "minecraft:crafted": {
+      "minecraft:birch_planks": 4
     },
     "minecraft:used": {
       "minecraft:diamond_block": 216,
@@ -66,13 +69,10 @@
       "minecraft:dirt": 2,
       "minecraft:obsidian": 18
     },
-    "minecraft:dropped": {
-      "minecraft:flint_and_steel": 1,
-      "minecraft:white_bed": 1,
-      "minecraft:wooden_axe": 1,
-      "minecraft:gunpowder": 1,
-      "minecraft:lilac": 2,
-      "minecraft:tnt": 1
+    "minecraft:killed": {
+      "minecraft:creeper": 1,
+      "minecraft:pig": 4,
+      "minecraft:cow": 1
     }
   },
   "DataVersion": 4671

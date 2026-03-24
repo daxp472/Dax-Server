@@ -1,254 +1,271 @@
-[12:14:43] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[12:14:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
-[12:14:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:14:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 19 plugins
-[12:14:45] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
- - CrazyCrates (5.0.0), nightcore (2.14.0)
-[12:14:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (17):
+[21:00:16] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[21:00:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) for Minecraft 1.21.11
+[21:00:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:00:18] [ServerMain/INFO]: [PluginInitializerManager] Initialized 20 plugins
+[21:00:18] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+ - CrazyCrates (5.0.0), EconomyShopGUI (6.16.3), nightcore (2.14.0)
+[21:00:18] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (17):
  - AuctionHouse (1.4.3), AuthMe (5.7.0-FORK-b53), BetterRTP (3.6.13), Citizens (2.0.41-SNAPSHOT (build 4134)), CockeroinServer (1.0-SNAPSHOT), DeluxeMenus (1.14.1-Release), Essentials (2.22.0-dev+74-d7452bf), EssentialsChat (2.22.0-dev+74-d7452bf), EssentialsSpawn (2.22.0-dev+74-d7452bf), ExcellentCrates (6.6.1), LuckPerms (5.5.0), PlaceholderAPI (2.12.2), Skript (2.14.2), TAB (5.5.0), Vault (1.5.4), WorldEdit (7.4.1+76eaf25bd), WorldGuard (7.0.15+2347-5fafea6)
-[12:14:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[12:14:51] [ServerMain/INFO]: Loaded 1470 recipes
-[12:14:51] [ServerMain/INFO]: Loaded 1584 advancements
-[12:14:51] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[12:14:51] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 244.8ms
-[12:14:51] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[12:14:51] [Server thread/INFO]: Loading properties
-[12:14:51] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[12:14:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:14:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:14:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:14:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
-[12:14:52] [Server thread/INFO]: Default game type: SURVIVAL
-[12:14:52] [Server thread/INFO]: Generating keypair
-[12:14:52] [Server thread/INFO]: Starting Minecraft server on *:25567
-[12:14:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:14:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:14:52] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 4 libraries... please wait
-[12:14:52] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\ch\ethz\globis\phtree\phtree\2.8.2\phtree-2.8.2.jar
-[12:14:52] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\org\joml\joml\1.10.8\joml-1.10.8.jar
-[12:14:52] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\it\unimi\dsi\fastutil\8.5.16\fastutil-8.5.16.jar
-[12:14:52] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\team\unnamed\mocha\3.0.0\mocha-3.0.0.jar
-[12:14:52] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\org\javassist\javassist\3.30.2-GA\javassist-3.30.2-GA.jar
-[12:14:52] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar
-[12:14:53] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
-[12:14:53] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
-[12:14:53] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.5.4
-[12:14:53] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.1+76eaf25bd
-[12:14:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@16ccfe18]
-[12:14:54] [Server thread/INFO]: [nightcore] Loading server plugin nightcore v2.14.0
-[12:14:54] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+74-d7452bf
-[12:14:54] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.15+2347-5fafea6
-[12:14:54] [Server thread/INFO]: [ExcellentCrates] Loading server plugin ExcellentCrates v6.6.1
-[12:14:54] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+74-d7452bf
-[12:14:54] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.5.0
-[12:14:54] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.14.2
-[12:14:54] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+74-d7452bf
-[12:14:54] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
-[12:14:54] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
-[12:14:54] [Server thread/INFO]: [CrazyCrates] Loading server plugin CrazyCrates v5.0.0
-[12:14:54] [Server thread/INFO]: [CockeroinServer] Loading server plugin CockeroinServer v1.0-SNAPSHOT
-[12:14:54] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.41-SNAPSHOT (build 4134)
-[12:14:54] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
-[12:14:54] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
-[12:14:54] [Server thread/INFO]: [AuctionHouse] Loading server plugin AuctionHouse v1.4.3
-[12:14:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:14:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[12:14:54] [Server thread/INFO]:         __    
-[12:14:54] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
-[12:14:54] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[12:14:54] [Server thread/INFO]: 
-[12:14:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[12:14:54] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[12:14:55] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[12:14:55] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[12:14:55] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 947ms)
-[12:14:55] [Server thread/INFO]: [Vault] Enabling Vault v1.5.4
-[12:14:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vault [1.5.4]
-[12:14:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vault2 [1.5.4]
-[12:14:55] [Server thread/INFO]: [Vault] PlaceholderAPI expansions registered: %vault_*% and %vault2_*%.
-[12:14:55] [Server thread/INFO]: [Vault] Internal economy registered without depending on Vault.jar
-[12:14:55] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[12:14:55] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.1+76eaf25bd
-[12:14:55] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[12:14:55] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[12:14:55] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
-[12:14:55] [Server thread/INFO]: [nightcore] Enabling nightcore v2.14.0
-[12:14:56] [Server thread/INFO]: [nightcore] Server version detected as 1.21.11. Using paper-bridge.
-[12:14:56] [Server thread/INFO]: [nightcore] Vault detected! Loading currency...
-[12:14:56] [Server thread/INFO]: [nightcore] Currency registered: 'vault'.
-[12:14:56] [Server thread/INFO]: [nightcore] Currency registered: 'xp_level'.
-[12:14:56] [Server thread/INFO]: [nightcore] Currency registered: 'gold'.
-[12:14:56] [Server thread/INFO]: [nightcore] Currency registered: 'emerald'.
-[12:14:56] [Server thread/INFO]: [nightcore] Currency registered: 'custom_diamond'.
-[12:14:56] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[12:14:56] [Server thread/INFO]: [nightcore] Time zone set as Asia/Calcutta
-[12:14:56] [Server thread/INFO]: [nightcore] Loaded 2 color schemes.
-[12:14:56] [Server thread/INFO]: [nightcore] Using 'custom' color scheme.
-[12:14:56] [Server thread/INFO]: [nightcore] Registered permissions provider: LuckPerms
-[12:14:56] [Server thread/INFO]: [nightcore] Registered item provider: 'vanilla'.
-[12:14:56] [Server thread/INFO]: [nightcore] Registered item provider: 'excellentcrates'.
-[12:14:56] [Server thread/INFO]: [nightcore] Registered item provider: 'excellentcrates_crate'.
-[12:14:56] [Server thread/INFO]: [nightcore] Registered item provider: 'excellentcrates_key'.
-[12:14:56] [Server thread/INFO]: [nightcore] Plugin loaded in 322 ms!
-[12:14:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:14:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:14:56] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[12:14:56] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[12:14:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:14:56] [Server thread/INFO]: Preparing level "world"
-[12:14:57] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[12:14:57] [Server thread/INFO]: Preparing spawn area: 100%
-[12:14:57] [Server thread/INFO]: Prepared spawn area in 2 ms
-[12:14:57] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[12:14:57] [Server thread/INFO]: Prepared spawn area in 1 ms
-[12:14:57] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[12:14:57] [Server thread/INFO]: Prepared spawn area in 0 ms
-[12:14:57] [Server thread/INFO]: Done preparing level "world" (0.794s)
-[12:14:57] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
-[12:14:57] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[12:14:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+74-d7452bf
-[12:14:57] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[12:14:57] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[12:14:57] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[12:14:58] [Server thread/INFO]: [Essentials] Loaded 46309 items from items.json.
-[12:14:58] [Server thread/INFO]: [Essentials] Using locale en_CA
-[12:14:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[12:14:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[12:14:58] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[12:14:58] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.15+2347-5fafea6
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[12:14:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[12:14:58] [Server thread/INFO]: [WorldGuard] Loading region data...
-[12:14:58] [Server thread/INFO]: [ExcellentCrates] Enabling ExcellentCrates v6.6.1
-[12:14:58] [Server thread/INFO]: [ExcellentCrates] Powered by nightcore
-[12:14:58] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] ExcellentCratesPool - Starting...
-[12:14:58] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] ExcellentCratesPool - Added connection org.sqlite.jdbc4.JDBC4Connection@69cc4da9
-[12:14:58] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] ExcellentCratesPool - Start completed.
-[12:14:58] [Server thread/WARN]: [ExcellentCrates] *************************
-[12:14:58] [Server thread/WARN]: [ExcellentCrates] You have no packet library plugins installed for the Holograms feature to work.
-[12:14:58] [Server thread/WARN]: [ExcellentCrates] Please install one of the following plugins to enable crate holograms: packetevents or ProtocolLib
-[12:14:58] [Server thread/WARN]: [ExcellentCrates] *************************
-[12:14:58] [Server thread/INFO]: [ExcellentCrates] Loaded 8 crate openings.
-[12:14:58] [Server thread/INFO]: [ExcellentCrates] Loaded 0 crate keys.
-[12:14:58] [Server thread/INFO]: [ExcellentCrates] Loaded 3 rarities!
-[12:14:59] [Server thread/INFO]: [ExcellentCrates] Loaded 5 crates.
-[12:14:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: excellentcrates [6.6.1]
-[12:14:59] [Server thread/INFO]: [ExcellentCrates] Plugin loaded in 331 ms!
-[12:14:59] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+74-d7452bf
-[12:14:59] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[12:14:59] [Server thread/INFO]: [TAB] Enabling TAB v5.5.0
-[12:14:59] [Server thread/INFO]: [TAB] [WARN] [config.yml] header-footer: Configuration section "header-footer" has unknown key "header". Valid keys: [enabled, designs]
-[12:14:59] [Server thread/INFO]: [TAB] [WARN] [config.yml] header-footer: Configuration section "header-footer" has unknown key "footer". Valid keys: [enabled, designs]
-[12:14:59] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
-[12:14:59] [Server thread/INFO]: [TAB] Enabled in 216ms
-[12:14:59] [Server thread/INFO]: [Skript] Enabling Skript v2.14.2
-[12:14:59] [Server thread/INFO]: [Skript] You're currently running a custom Skript version. No updates will be automatically installed.
-[12:15:00] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[12:15:00] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+74-d7452bf
-[12:15:00] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[12:15:00] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
-[12:15:00] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
-[12:15:01] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
-[12:15:01] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: teststone in menu: basics_menu. This option is deprecated and will be removed soon. Please use 'damage' instead.
-[12:15:01] [Server thread/INFO]: [DeluxeMenus] 4 GUI menus loaded!
-[12:15:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
-[12:15:01] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
-[12:15:01] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v5.0.0
-[12:15:01] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 961ms
-[12:15:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: crazycrates [5.0.0]
-[12:15:02] [Server thread/INFO]: [CockeroinServer] Enabling CockeroinServer v1.0-SNAPSHOT
-[12:15:02] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.41-SNAPSHOT (build 4134)
-[12:15:02] [Server thread/INFO]: [Citizens] Loaded 2 templates.
-[12:15:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizens [1.0.0]
-[12:15:02] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[12:15:02] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
-[12:15:02] [Server thread/INFO]: [BetterRTP] Cooldown = 600
-[12:15:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
-[12:15:02] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
-[12:15:02] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
-[12:15:03] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[12:15:03] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[12:15:03] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[12:15:03] [Server thread/INFO]: [AuthMe] Hooked successfully into PlaceholderAPI
-[12:15:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: authme [5.7.0-FORK]
-[12:15:03] [Server thread/WARN]: [AuthMe] "AuthMe v5.7.0-FORK-b53" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void fr.xephi.authme.listener.PlayerListener19Spigot.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [sgdc3, games647, Hex3l, krusic22].
-[12:15:03] [Server thread/INFO]: [AuthMe] 
+[21:00:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:00:26] [ServerMain/INFO]: Loaded 1470 recipes
+[21:00:26] [ServerMain/INFO]: Loaded 1584 advancements
+[21:00:26] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:00:27] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 394.9ms
+[21:00:27] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[21:00:27] [Server thread/INFO]: Loading properties
+[21:00:27] [Server thread/INFO]: This server is running Paper version 1.21.11-127-main@bd74bf6 (2026-03-10T02:55:23Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[21:00:27] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:00:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:00:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:00:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
+[21:00:28] [Server thread/INFO]: Default game type: SURVIVAL
+[21:00:28] [Server thread/INFO]: Generating keypair
+[21:00:28] [Server thread/INFO]: Starting Minecraft server on *:25567
+[21:00:28] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:00:28] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:00:29] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 4 libraries... please wait
+[21:00:29] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\ch\ethz\globis\phtree\phtree\2.8.2\phtree-2.8.2.jar
+[21:00:29] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\org\joml\joml\1.10.8\joml-1.10.8.jar
+[21:00:29] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\it\unimi\dsi\fastutil\8.5.16\fastutil-8.5.16.jar
+[21:00:29] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\team\unnamed\mocha\3.0.0\mocha-3.0.0.jar
+[21:00:29] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\org\javassist\javassist\3.30.2-GA\javassist-3.30.2-GA.jar
+[21:00:29] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library D:\xyz\games\Dax-Server\Survival\libraries\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar
+[21:00:29] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[21:00:29] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[21:00:29] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.5.4
+[21:00:29] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.1+76eaf25bd
+[21:00:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@40c782]
+[21:00:30] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+74-d7452bf
+[21:00:30] [Server thread/INFO]: [nightcore] Loading server plugin nightcore v2.14.0
+[21:00:30] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.15+2347-5fafea6
+[21:00:30] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+74-d7452bf
+[21:00:30] [Server thread/INFO]: [ExcellentCrates] Loading server plugin ExcellentCrates v6.6.1
+[21:00:30] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+74-d7452bf
+[21:00:30] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.5.0
+[21:00:30] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.14.2
+[21:00:30] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.16.3
+[21:00:30] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
+[21:00:30] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
+[21:00:30] [Server thread/INFO]: [CrazyCrates] Loading server plugin CrazyCrates v5.0.0
+[21:00:30] [Server thread/INFO]: [CockeroinServer] Loading server plugin CockeroinServer v1.0-SNAPSHOT
+[21:00:30] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.41-SNAPSHOT (build 4134)
+[21:00:30] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
+[21:00:30] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.7.0-FORK-b53
+[21:00:30] [Server thread/INFO]: [AuctionHouse] Loading server plugin AuctionHouse v1.4.3
+[21:00:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:00:30] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[21:00:31] [Server thread/INFO]:         __    
+[21:00:31] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[21:00:31] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:00:31] [Server thread/INFO]: 
+[21:00:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:00:31] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:00:32] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:00:32] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:00:32] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1451ms)
+[21:00:32] [Server thread/INFO]: [Vault] Enabling Vault v1.5.4
+[21:00:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vault [1.5.4]
+[21:00:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vault2 [1.5.4]
+[21:00:32] [Server thread/INFO]: [Vault] PlaceholderAPI expansions registered: %vault_*% and %vault2_*%.
+[21:00:32] [Server thread/INFO]: [Vault] Internal economy registered without depending on Vault.jar
+[21:00:32] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[21:00:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.1+76eaf25bd
+[21:00:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:00:32] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[21:00:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
+[21:00:33] [Server thread/INFO]: [nightcore] Enabling nightcore v2.14.0
+[21:00:33] [Server thread/INFO]: [nightcore] Server version detected as 1.21.11. Using paper-bridge.
+[21:00:33] [Server thread/INFO]: [nightcore] Vault detected! Loading currency...
+[21:00:33] [Server thread/INFO]: [nightcore] Currency registered: 'vault'.
+[21:00:33] [Server thread/INFO]: [nightcore] Currency registered: 'xp_level'.
+[21:00:33] [Server thread/INFO]: [nightcore] Currency registered: 'gold'.
+[21:00:33] [Server thread/INFO]: [nightcore] Currency registered: 'emerald'.
+[21:00:33] [Server thread/INFO]: [nightcore] Currency registered: 'custom_diamond'.
+[21:00:33] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:00:33] [Server thread/INFO]: [nightcore] Time zone set as Asia/Calcutta
+[21:00:33] [Server thread/INFO]: [nightcore] Loaded 2 color schemes.
+[21:00:33] [Server thread/INFO]: [nightcore] Using 'custom' color scheme.
+[21:00:33] [Server thread/INFO]: [nightcore] Registered permissions provider: LuckPerms
+[21:00:33] [Server thread/INFO]: [nightcore] Registered item provider: 'vanilla'.
+[21:00:33] [Server thread/INFO]: [nightcore] Registered item provider: 'excellentcrates'.
+[21:00:33] [Server thread/INFO]: [nightcore] Registered item provider: 'excellentcrates_crate'.
+[21:00:33] [Server thread/INFO]: [nightcore] Registered item provider: 'excellentcrates_key'.
+[21:00:33] [Server thread/INFO]: [nightcore] Plugin loaded in 446 ms!
+[21:00:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:00:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:00:33] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[21:00:33] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[21:00:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:00:33] [Server thread/INFO]: Preparing level "world"
+[21:00:34] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[21:00:34] [Server thread/INFO]: Preparing spawn area: 100%
+[21:00:34] [Server thread/INFO]: Prepared spawn area in 14 ms
+[21:00:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[21:00:35] [Server thread/INFO]: Prepared spawn area in 13 ms
+[21:00:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[21:00:35] [Server thread/INFO]: Prepared spawn area in 16 ms
+[21:00:35] [Server thread/INFO]: Done preparing level "world" (1.033s)
+[21:00:35] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[21:00:35] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:00:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+74-d7452bf
+[21:00:35] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:00:35] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[21:00:35] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[21:00:36] [Server thread/INFO]: [Essentials] Loaded 46309 items from items.json.
+[21:00:36] [Server thread/INFO]: [Essentials] Using locale en_CA
+[21:00:36] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:00:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:00:36] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[21:00:36] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.15+2347-5fafea6
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:00:36] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:00:36] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:00:36] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+74-d7452bf
+[21:00:36] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[21:00:36] [Server thread/INFO]: [ExcellentCrates] Enabling ExcellentCrates v6.6.1
+[21:00:36] [Server thread/INFO]: [ExcellentCrates] Powered by nightcore
+[21:00:37] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] ExcellentCratesPool - Starting...
+[21:00:37] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] ExcellentCratesPool - Added connection org.sqlite.jdbc4.JDBC4Connection@235a534
+[21:00:37] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] ExcellentCratesPool - Start completed.
+[21:00:37] [Server thread/WARN]: [ExcellentCrates] *************************
+[21:00:37] [Server thread/WARN]: [ExcellentCrates] You have no packet library plugins installed for the Holograms feature to work.
+[21:00:37] [Server thread/WARN]: [ExcellentCrates] Please install one of the following plugins to enable crate holograms: packetevents or ProtocolLib
+[21:00:37] [Server thread/WARN]: [ExcellentCrates] *************************
+[21:00:37] [Server thread/INFO]: [ExcellentCrates] Loaded 8 crate openings.
+[21:00:37] [Server thread/INFO]: [ExcellentCrates] Loaded 0 crate keys.
+[21:00:37] [Server thread/INFO]: [ExcellentCrates] Loaded 3 rarities!
+[21:00:37] [Server thread/INFO]: [ExcellentCrates] Loaded 5 crates.
+[21:00:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: excellentcrates [6.6.1]
+[21:00:37] [Server thread/INFO]: [ExcellentCrates] Plugin loaded in 451 ms!
+[21:00:37] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+74-d7452bf
+[21:00:37] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[21:00:37] [Server thread/INFO]: [TAB] Enabling TAB v5.5.0
+[21:00:37] [Server thread/INFO]: [TAB] [WARN] [config.yml] header-footer: Configuration section "header-footer" has unknown key "header". Valid keys: [enabled, designs]
+[21:00:37] [Server thread/INFO]: [TAB] [WARN] [config.yml] header-footer: Configuration section "header-footer" has unknown key "footer". Valid keys: [enabled, designs]
+[21:00:37] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[21:00:37] [Server thread/INFO]: [TAB] Enabled in 253ms
+[21:00:37] [Server thread/INFO]: [Skript] Enabling Skript v2.14.2
+[21:00:38] [Server thread/INFO]: [Skript] You're currently running a custom Skript version. No updates will be automatically installed.
+[21:00:39] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[21:00:39] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.16.3
+[21:00:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[21:00:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Default shops layout compatible with 121 created at D:\xyz\games\Dax-Server\Survival\plugins\EconomyShopGUI\shops
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using VaultEconomy as economy provider
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.11...
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[21:00:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[21:00:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[21:00:40] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1191ms
+[21:00:41] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 1192ms to complete
+[21:00:41] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
+[21:00:41] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[21:00:41] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.16.3 but found v6.16.4.
+[21:00:41] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[21:00:41] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[21:00:41] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: teststone in menu: basics_menu. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[21:00:41] [Server thread/INFO]: [DeluxeMenus] 4 GUI menus loaded!
+[21:00:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
+[21:00:41] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[21:00:41] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v5.0.0
+[21:00:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: crazycrates [5.0.0]
+[21:00:41] [Server thread/INFO]: [CockeroinServer] Enabling CockeroinServer v1.0-SNAPSHOT
+[21:00:41] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.41-SNAPSHOT (build 4134)
+[21:00:42] [Server thread/INFO]: [Citizens] Loaded 2 templates.
+[21:00:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizens [1.0.0]
+[21:00:42] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[21:00:42] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
+[21:00:42] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[21:00:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
+[21:00:43] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
+[21:00:43] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
+[21:00:43] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[21:00:43] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[21:00:43] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[21:00:43] [Server thread/INFO]: [AuthMe] Hooked successfully into PlaceholderAPI
+[21:00:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: authme [5.7.0-FORK]
+[21:00:43] [Server thread/WARN]: [AuthMe] "AuthMe v5.7.0-FORK-b53" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void fr.xephi.authme.listener.PlayerListener19Spigot.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [sgdc3, games647, Hex3l, krusic22].
+[21:00:43] [Server thread/INFO]: [AuthMe] 
     ___         __  __    __  ___   
    /   | __  __/ /_/ /_  /  |/  /__ 
   / /| |/ / / / __/ __ \/ /|_/ / _ \
  / ___ / /_/ / /_/ / / / /  / /  __/
 /_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
                                     
-[12:15:03] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
-[12:15:03] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
-[12:15:03] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
-[12:15:03] [Server thread/INFO]: [AuthMe] Checking for updates...
-[12:15:03] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v1.4.3
-[12:15:03] [Server thread/INFO]: [AuctionHouse] AuctionHouse enabled in 128ms
-[12:15:03] [Server thread/INFO]: [spark] Starting background profiler...
-[12:15:03] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[12:15:03] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[12:15:03] [Server thread/INFO]: Running delayed init tasks
-[12:15:03] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[12:15:03] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.5.4)!
-[12:15:03] [Server thread/INFO]: [Skript] Loading variables...
-[12:15:03] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
-[12:15:04] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[12:15:04] [Server thread/INFO]: [Skript] Loaded 3 scripts with a total of 3 structures in 0.16 seconds
-[12:15:04] [Server thread/INFO]: [Skript] Finished loading.
-[12:15:04] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] You are running the latest version.
-[12:15:04] [Server thread/INFO]: [Citizens] Loaded 1 NPCs.
-[12:15:04] [Server thread/INFO]: Done (21.659s)! For help, type "help"
-[12:15:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
-[12:15:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
-[12:15:04] [Server thread/INFO]: 2 placeholder hook(s) registered!
-[12:15:04] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[12:15:04] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[12:15:16] [User Authenticator #0/INFO]: UUID of player mastermen1 is e6a65441-b3ba-393f-a2cd-da5a65150ba8
-[12:15:16] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, AuthMe, DeluxeMenus, WorldGuard]
-[12:15:17] [Server thread/INFO]: mastermen1[/127.0.0.1:49958] logged in with entity id 5 at ([world]16.0, 85.0, -48.0)
-[12:15:18] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] mastermen1 logged in 127.0.0.1
-[12:15:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp mastermen1 1000 250 1000
-[12:15:18] [Server thread/INFO]: Teleporting...
-[12:15:31] [Server thread/INFO]: mastermen1 issued server command: /help
-[12:15:40] [Server thread/INFO]: mastermen1 issued server command: /list
-[12:16:08] [Server thread/INFO]: mastermen1 issued server command: /ah sell 10000
-[12:16:12] [Server thread/INFO]: mastermen1 issued server command: /ah
-[12:17:29] [Server thread/INFO]: mastermen1 issued server command: /pay mastermen1 coin 10
-[12:17:34] [Server thread/INFO]: mastermen1 lost connection: Disconnected
+[21:00:43] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
+[21:00:43] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
+[21:00:43] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[21:00:43] [Server thread/INFO]: [AuthMe] Checking for updates...
+[21:00:43] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v1.4.3
+[21:00:43] [Server thread/INFO]: [AuctionHouse] AuctionHouse enabled in 74ms
+[21:00:43] [Server thread/INFO]: [spark] Starting background profiler...
+[21:00:43] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[21:00:44] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:00:44] [Server thread/INFO]: Running delayed init tasks
+[21:00:44] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:00:44] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.5.4)!
+[21:00:44] [Server thread/INFO]: [Skript] Loading variables...
+[21:00:44] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[21:00:44] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[21:00:44] [Server thread/INFO]: [Skript] Loaded 3 scripts with a total of 3 structures in 0.28 seconds
+[21:00:44] [Server thread/INFO]: [Skript] Finished loading.
+[21:00:44] [Craft Scheduler Thread - 7 - AuthMe/INFO]: [AuthMe] You are running the latest version.
+[21:00:44] [Server thread/INFO]: [Citizens] Loaded 1 NPCs.
+[21:00:45] [Server thread/INFO]: Done (29.875s)! For help, type "help"
+[21:00:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[21:00:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[21:00:45] [Server thread/INFO]: 2 placeholder hook(s) registered!
+[21:00:45] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[21:00:45] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[21:01:32] [User Authenticator #0/INFO]: UUID of player mastermen1 is e6a65441-b3ba-393f-a2cd-da5a65150ba8
+[21:01:32] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, AuthMe, DeluxeMenus, WorldGuard]
+[21:01:34] [Server thread/INFO]: mastermen1[/127.0.0.1:64350] logged in with entity id 5 at ([world]16.0, 85.0, -48.0)
+[21:01:34] [Craft Scheduler Thread - 12 - AuthMe/INFO]: [AuthMe] mastermen1 logged in 127.0.0.1
+[21:01:35] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp mastermen1 1000 250 1000
+[21:01:35] [Server thread/INFO]: Teleporting...
+[21:01:41] [Server thread/INFO]: mastermen1 issued server command: /eshop reload
+[21:01:52] [Server thread/INFO]: mastermen1 issued server command: /sellgui
+[21:04:31] [Server thread/INFO]: mastermen1 lost connection: Disconnected
