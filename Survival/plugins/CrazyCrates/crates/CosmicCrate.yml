@@ -262,7 +262,7 @@ Crate:
   # The crate type specific settings.
   Crate-Type-Settings:
     # The total amount of prizes to pick.
-    Total-Prize-Amount: 4
+    Total-Prize-Amount: 1
     # The mystery crate customization.
     Mystery-Crate:
       # The item of the mystery crate.

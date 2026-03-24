@@ -1,0 +1,26 @@
+# Reward players automatically every 5 minutes
+every 5 minutes:
+    loop all players:
+        if loop-player has permission "group.chakravarti":
+            execute console command "eco give %loop-player% 500"
+            send "&aYou received &e$500&a for playing on Eternal SMP!" to loop-player
+            
+        else if loop-player has permission "group.rajguru":
+            execute console command "eco give %loop-player% 250"
+            send "&aYou received &e$250&a for playing on Eternal SMP!" to loop-player
+            
+        else if loop-player has permission "group.vajir":
+            execute console command "eco give %loop-player% 100"
+            send "&aYou received &e$100&a for playing on Eternal SMP!" to loop-player
+            
+        else if loop-player has permission "group.sachiv":
+            execute console command "eco give %loop-player% 50"
+            send "&aYou received &e$50&a for playing on Eternal SMP!" to loop-player
+            
+        else if loop-player has permission "group.yodha":
+            execute console command "eco give %loop-player% 20"
+            send "&aYou received &e$20&a for playing on Eternal SMP!" to loop-player
+            
+        else if loop-player has permission "group.janta":
+            execute console command "eco give %loop-player% 10"
+            send "&aYou received &e$10&a for playing on Eternal SMP!" to loop-player

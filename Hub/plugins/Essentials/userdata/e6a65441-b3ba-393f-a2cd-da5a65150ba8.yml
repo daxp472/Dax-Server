@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 10.168.189.222
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1774288627260
-  login: 1774288623745
+  logout: 1774334716981
+  login: 1774334712902
   kits:
     chakravarti: 1774250282326
 money: '0'
@@ -25,11 +25,11 @@ last-account-name: mastermen1
 logoutlocation:
   world: b612beee-fe78-4ed0-bcf4-f47e2388c0ae
   world-name: world
-  x: 1000.5
-  y: 250.0
-  z: 1000.5
-  yaw: 3.5999996662139893
-  pitch: -34.5000114440918
+  x: 1000.2830045192957
+  y: 251.0
+  z: 1001.4043104241773
+  yaw: -4.350005149841309
+  pitch: -24.749998092651367
 lastlocation:
   world: b612beee-fe78-4ed0-bcf4-f47e2388c0ae
   world-name: world

@@ -1,0 +1,43 @@
+Id: Uncommon
+Display:
+  Name: <gradient:#ffe259:#ffa751><bold>Uncommon Crate</bold></gradient>
+  Lore:
+  - '&7&oA crate with uncommon rewards.'
+  - ''
+  - '&fCost: &e1 Uncommon Key'
+  Item: ENDER_CHEST
+Settings:
+  Type: SPINNER
+  Require_Key_To_Preview: false
+  Broadcast: true
+  Drop_Type: RANDOM
+Keys:
+  Id: uncommon_key
+  Display:
+    Name: <gradient:#ffe259:#ffa751><bold>Uncommon Key</bold></gradient>
+    Item: TRIPWIRE_HOOK
+    Glowing: true
+Rewards:
+  '1':
+    Chance: 40.0
+    Item:
+      Material: GOLD_INGOT
+      Amount: 32
+    Broadcast: true
+  '2':
+    Chance: 35.0
+    Item:
+      Material: DIAMOND
+      Amount: 5
+    Broadcast: true
+  '3':
+    Chance: 25.0
+    Command: eco give %player% 2500
+    Broadcast: true
+_dataver: 600
+Preview:
+  Enabled: false
+  Id: default
+Animation:
+  Enabled: false
+  Id: default

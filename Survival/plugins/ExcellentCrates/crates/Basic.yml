@@ -1,0 +1,43 @@
+Id: Basic
+Display:
+  Name: <gradient:#a8ff78:#78ffd6><bold>Basic Crate</bold></gradient>
+  Lore:
+  - '&7&oA crate with basic rewards.'
+  - ''
+  - '&fCost: &e1 Basic Key'
+  Item: CHEST
+Settings:
+  Type: SPINNER
+  Require_Key_To_Preview: false
+  Broadcast: true
+  Drop_Type: RANDOM
+Keys:
+  Id: basic_key
+  Display:
+    Name: <gradient:#a8ff78:#78ffd6><bold>Basic Key</bold></gradient>
+    Item: TRIPWIRE_HOOK
+    Glowing: true
+Rewards:
+  '1':
+    Chance: 50.0
+    Item:
+      Material: IRON_INGOT
+      Amount: 16
+    Broadcast: true
+  '2':
+    Chance: 30.0
+    Item:
+      Material: DIAMOND
+      Amount: 1
+    Broadcast: true
+  '3':
+    Chance: 20.0
+    Command: eco give %player% 1000
+    Broadcast: true
+_dataver: 600
+Preview:
+  Enabled: false
+  Id: default
+Animation:
+  Enabled: false
+  Id: default

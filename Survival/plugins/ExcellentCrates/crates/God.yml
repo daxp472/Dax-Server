@@ -1,0 +1,49 @@
+Id: God
+Display:
+  Name: <gradient:#ff9a9e:#fecfef><bold>God Crate</bold></gradient>
+  Lore:
+  - '&7&oA crate with god-level rewards.'
+  - ''
+  - '&fCost: &e1 God Key'
+  Item: BEACON
+Settings:
+  Type: SPINNER
+  Require_Key_To_Preview: false
+  Broadcast: true
+  Drop_Type: RANDOM
+Keys:
+  Id: god_key
+  Display:
+    Name: <gradient:#ff9a9e:#fecfef><bold>God Key</bold></gradient>
+    Item: NETHER_STAR
+    Glowing: true
+Rewards:
+  '1':
+    Chance: 40.0
+    Item:
+      Material: NETHERITE_BLOCK
+      Amount: 1
+    Broadcast: true
+  '2':
+    Chance: 40.0
+    Item:
+      Material: ELYTRA
+      Amount: 1
+    Broadcast: true
+  '3':
+    Chance: 19.0
+    Command: eco give %player% 50000
+    Broadcast: true
+  '4':
+    Chance: 1.0
+    Item:
+      Material: DRAGON_EGG
+      Amount: 1
+    Broadcast: true
+_dataver: 600
+Preview:
+  Enabled: false
+  Id: default
+Animation:
+  Enabled: false
+  Id: default

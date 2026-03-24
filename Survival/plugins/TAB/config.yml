@@ -6,7 +6,7 @@ scoreboard-teams:
   enable-collision: true
   invisible-nametags: false
   sorting-types:
-    - GROUPS:owner,admin,mod,helper,builder,vip,yodha,default
+    - GROUPS:owner,admin,mod,helper,builder,vip,chakravarti,rajguru,vajir,sachiv,yodha,default
     - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
@@ -34,14 +34,12 @@ scoreboard:
         - " &8» &fName: &b%player%"
         - " &8» &fRank: &b%group%"
         - " &8» &fKills: &c%statistic_player_kills%"
-        - " &8» &fDeaths: &c%statistic_deaths%"
-        - ""
+        - " "
         - " &6⛃ &fMoney: &a%vault_eco_balance_formatted%"
+        - " &e✦ &fCoins: &e%playerpoints_points%"
         - " "
-        - " &b⚡ &fTPS: &a%tps%"
-        - " &3✈ &fPing: &f%ping%&7ms"
+        - " &b⚡ &fTPS: &a%tps% &8| &3✈ &fPing: &f%ping%&7ms"
         - " &d👥 &fOnline: &f%online%"
-        - " "
         - "   &7&oplay.eternalsmp.net"
         - "&7&m------------------"
 
@@ -54,15 +52,12 @@ scoreboard:
         - " &8» &fName: &b%player%"
         - " &8» &fRank: &b%group%"
         - " &8» &fKills: &c%statistic_player_kills%"
-        - " &8» &fDeaths: &c%statistic_deaths%"
         - " "
         - " &6➲ &fMoney: &a%vault_eco_balance_formatted%"
-        - " &e✦ &fCoins: &e%playerpoints_points_formatted%"
+        - " &e✦ &fCoins: &e%playerpoints_points%"
         - " "
-        - " &b⚡ &fTPS: &a%tps%"
-        - " &3✈ &fPing: &b%ping%&8ms"
+        - " &b⚡ &fTPS: &a%tps% &8| &3✈ &fPing: &b%ping%&8ms"
         - " &d👥 &fOnline: &b%online%"
-        - " "
         - "   &e&oplay.eternalsmp.net"
         - "&7&m----------------------------"
 
@@ -177,6 +172,10 @@ primary-group-finding-list:
   - Admin
   - Mod
   - Helper
+  - chakravarti
+  - rajguru
+  - vajir
+  - sachiv
   - yodha
   - default
 permission-refresh-interval: 1000
