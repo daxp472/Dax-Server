@@ -1,0 +1,9 @@
+on join:
+    send "&6&m----------------------------------"
+    send "&e✨ Welcome, &6%player%!"
+    send "&7Have fun on &bMyServer!"
+    send "&6&m----------------------------------"
+
+    send title "&6Welcome!" with subtitle "&e%player%" to player
+
+    play sound "entity.player.levelup" to player

@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1774287820392
-  login: 1774287814987
+  logout: 1774288627260
+  login: 1774288623745
   kits:
     chakravarti: 1774250282326
 money: '0'
@@ -25,11 +25,11 @@ last-account-name: mastermen1
 logoutlocation:
   world: b612beee-fe78-4ed0-bcf4-f47e2388c0ae
   world-name: world
-  x: 1000.8126268906296
-  y: 252.17675927506423
-  z: 1002.386218438672
-  yaw: 7.499993324279785
-  pitch: -1.9499980211257935
+  x: 1000.5
+  y: 250.0
+  z: 1000.5
+  yaw: 3.5999996662139893
+  pitch: -34.5000114440918
 lastlocation:
   world: b612beee-fe78-4ed0-bcf4-f47e2388c0ae
   world-name: world

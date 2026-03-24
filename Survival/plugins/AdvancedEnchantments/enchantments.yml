@@ -1,0 +1,13 @@
+indra:
+  display: "&6&lIndraYantra"
+  description: "Breaks blocks in a 9x9 area"
+  applies-to: "Pickaxes"
+  type: "MINING"
+  group: "LEGENDARY"
+  applies:
+    - ALL_PICKAXE
+  levels:
+    1:
+      chance: 100
+      effects:
+        - BREAK_BLOCK:9x9

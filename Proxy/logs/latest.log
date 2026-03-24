@@ -1,74 +1,53 @@
-[23:20:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-d11511c1-b584)...
-[23:20:03] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[23:20:03] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[23:20:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[23:20:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[23:20:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
-[23:20:03] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[23:20:03] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (0.7s)!
-[23:20:12] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] 9Mohitsoni1 (/127.0.0.1:46130) has connected
-[23:20:12] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] 9Mohitsoni1 (/127.0.0.1:46130): unable to connect to server hub
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25566
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:764)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:741)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:611)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:472)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:317)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:515)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:460)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-[23:20:12] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] 9Mohitsoni1 (/127.0.0.1:46130) has disconnected: Unable to connect you to hub. Please try again later.
-[23:20:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] 9Mohitsoni1 (/127.0.0.1:46136) has connected
-[23:20:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 9Mohitsoni1 -> hub has connected
-[23:20:29] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 9Mohitsoni1 -> survival has connected
-[23:20:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 9Mohitsoni1 -> hub has disconnected
-[23:20:59] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] 9Mohitsoni1 (/127.0.0.1:46136) has disconnected
-[23:20:59] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 9Mohitsoni1 -> survival has disconnected
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:116)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:851)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1160)
-[23:21:04] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:145)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.PosixSysTerminal.lambda$handle$0(PosixSysTerminal.java:112)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.Signals.lambda$register$0(Signals.java:100)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at jdk.proxy2/jdk.proxy2.$Proxy21.handle(Unknown Source)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Caused by: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.jansi.JansiNativePty.getSize(JansiNativePty.java:167)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:114)
-[23:21:04] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	... 9 more
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Exception in thread "main" java.io.IOError: java.io.IOException: Input/output error
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Caused by: java.io.IOException: Input/output error
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FileInputStream.read0(Native Method)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPty$1.read(AbstractPty.java:84)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:150)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:89)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:183)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:101)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
-[23:21:04] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	... 9 more
-[23:21:04] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
+[09:21:05] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.5.0-SNAPSHOT (git-d11511c1-b584)...
+[09:21:06] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[09:21:06] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[09:21:06] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[09:21:06] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[09:21:06] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[09:21:06] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[09:21:06] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.45s)!
+[09:22:01] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] 9Mohitsoni1 (/127.0.0.1:51376) has connected
+[09:22:01] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 9Mohitsoni1 -> hub has connected
+[09:22:10] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 9Mohitsoni1 -> survival has connected
+[09:22:11] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 9Mohitsoni1 -> hub has disconnected
+[09:23:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] 9Mohitsoni1 (/127.0.0.1:51376) has disconnected
+[09:23:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] 9Mohitsoni1 -> survival has disconnected
+[09:23:25] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:116)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:851)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1160)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:145)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.PosixSysTerminal.lambda$handle$0(PosixSysTerminal.java:112)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.Signals.lambda$register$0(Signals.java:100)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at jdk.proxy2/jdk.proxy2.$Proxy21.handle(Unknown Source)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Caused by: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.jansi.JansiNativePty.getSize(JansiNativePty.java:167)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:114)
+[09:23:25] [SIGCONT handler/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	... 9 more
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Exception in thread "main" java.io.IOError: java.io.IOException: Input/output error
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:77)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: Caused by: java.io.IOException: Input/output error
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FileInputStream.read0(Native Method)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPty$1.read(AbstractPty.java:84)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:150)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:89)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:183)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:101)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
+[09:23:25] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: 	... 9 more
+[09:23:25] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565

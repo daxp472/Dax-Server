@@ -1,38 +1,30 @@
 {
   "stats": {
-    "minecraft:picked_up": {
-      "minecraft:dirt": 5,
-      "minecraft:beacon": 1,
-      "minecraft:cooked_beef": 2,
-      "minecraft:birch_log": 1,
-      "minecraft:netherite_ingot": 9,
-      "minecraft:tnt": 1,
+    "minecraft:dropped": {
       "minecraft:flint_and_steel": 1,
-      "minecraft:leather": 1,
-      "minecraft:cooked_porkchop": 8,
+      "minecraft:white_bed": 1,
+      "minecraft:wooden_axe": 1,
       "minecraft:gunpowder": 1,
-      "minecraft:lilac": 4
-    },
-    "minecraft:crafted": {
-      "minecraft:birch_planks": 4
+      "minecraft:lilac": 2,
+      "minecraft:tnt": 1
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 189747,
+      "minecraft:time_since_rest": 189818,
       "minecraft:walk_one_cm": 106380,
-      "minecraft:leave_game": 33,
+      "minecraft:leave_game": 34,
       "minecraft:walk_under_water_one_cm": 1489,
       "minecraft:mob_kills": 8,
       "minecraft:damage_taken": 245,
-      "minecraft:play_time": 218201,
+      "minecraft:play_time": 218272,
       "minecraft:damage_dealt": 1280,
       "minecraft:jump": 753,
       "minecraft:interact_with_beacon": 3,
-      "minecraft:time_since_death": 189716,
+      "minecraft:time_since_death": 189787,
       "minecraft:drop": 7,
       "minecraft:sprint_one_cm": 23283,
       "minecraft:open_chest": 2,
       "minecraft:fall_one_cm": 7700,
-      "minecraft:total_world_time": 218201,
+      "minecraft:total_world_time": 218272,
       "minecraft:fly_one_cm": 299128,
       "minecraft:walk_on_water_one_cm": 1483,
       "minecraft:crouch_one_cm": 5777,
@@ -50,6 +42,19 @@
       "minecraft:pig": 4,
       "minecraft:cow": 1
     },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 5,
+      "minecraft:beacon": 1,
+      "minecraft:cooked_beef": 2,
+      "minecraft:birch_log": 1,
+      "minecraft:netherite_ingot": 9,
+      "minecraft:tnt": 1,
+      "minecraft:flint_and_steel": 1,
+      "minecraft:leather": 1,
+      "minecraft:cooked_porkchop": 8,
+      "minecraft:gunpowder": 1,
+      "minecraft:lilac": 4
+    },
     "minecraft:used": {
       "minecraft:diamond_block": 216,
       "minecraft:netherite_block": 78,
@@ -66,13 +71,8 @@
       "minecraft:dirt": 2,
       "minecraft:obsidian": 18
     },
-    "minecraft:dropped": {
-      "minecraft:flint_and_steel": 1,
-      "minecraft:white_bed": 1,
-      "minecraft:wooden_axe": 1,
-      "minecraft:gunpowder": 1,
-      "minecraft:lilac": 2,
-      "minecraft:tnt": 1
+    "minecraft:crafted": {
+      "minecraft:birch_planks": 4
     }
   },
   "DataVersion": 4671
